@@ -1,0 +1,36 @@
+body{
+  background-color: #121254;
+}
+
+.main{
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  background-color: green;
+  text-align: center;
+}
+
+.deck, .card{
+  height: 300px;
+  width: 200px;
+  top: 50%;
+  background-color: #541212;
+  background-image: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 40px 10px;
+}
+
+.deck {
+  background-image: url('http://www.everythingerdnase.com/exhibit/wp-content/uploads/2011/10/Erdnase-1902-Smith-Red.jpg');
+}
+
+.winner {
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 20pt;
+  font-family: arial;
+}
